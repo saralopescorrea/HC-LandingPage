@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Landing Page para Black Friday 2021">
+    <meta name="author" content="Sara Lopes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="sortcut icon" href="/assets/logo-header.png" type="image/x-icon" />
+    <title>Lace&Wig - Black Friday 2021</title>
+
+</head>
+
+<body>
+<!--Janela de Libras VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+<!--Header apenas com texto-->
+    <header>
+        <h1>Lace&Wig</h1>
+    </header>
+
+<!--Seção 1: imagem da Black Friday-->
+    <section class="container1 section-one">
+        <img src="assets/blackfriday.png" alt="Mega oferta Black Friday">
+    </section>
+
+<!--Seção 2: formulário de inscrição-->
+    <section class="container1 section-two">
+            <div class="card-container1">
+                <div id="conteudo">
+                    <h2 id="card-chamada1"> Cadastre-se para receber nossas ofertas da Black Friday </h2>
+                    <form id="formulario">
+                        <input type="text" placeholder="Nome" id="nome" required>
+                        <input type="email" placeholder="Seu melhor e-mail" id="email" required>
+                        <button type="submit">Quero me cadastrar</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+<!--Seção 3: informe de desconto-->
+    <section class="container2 section-three">
+        <div id="card-chamada2">
+            <h2> Produtos com até 60% de desconto! </h2>
+            <a class="card-seta" href="#container3" >
+                <img src="/assets/seta.png" alt="Seta apontando para baixo na cor rosa">
+            </a>
+        </div>
+    </section>
+
+<!--Seção 4: produtos em promoção-->
+    <section class="section-four">
+        <div class="container3" id="container3">
+            <div class="card-produto">
+                <h4>Peruca ondulada ruiva</h4>
+                <img src="./assets/peruca-ruiva.jpg" alt="Peruca laranja ondulada" title="Peruca ruiva">
+                <h5>R$ 70,00</h5>
+                <span>R$ 40,00</span>
+            </div>
+            <div class="card-produto">
+                <h4>Peruca lisa loira</h4>
+                <img src="./assets/peruca-castanho.jpg" alt="Peruca lisa, longa e com luzes loiras" title="Peruca loira lisa">
+                <h5>R$ 93,00</h5>
+                <span>R$ 38,00</span>
+            </div>
+            <div class="card-produto">
+                <h4>Peruca cacheada preta</h4>
+                <img src="./assets/peruca-cacheada.jpg" alt="Peruca cacheada castanho escuro" title="Peruca cacheada">
+                <h5>R$ 90,00</h5>
+                <span>R$ 45,00</span>
+            </div>
+        </div>
+    </section>
+
+<!--Rodapé-->
+    <footer>
+        <span> &copy; 2021 Projeto desenvolvido para desafio proposto pela Hiring Coders. Feito por <a href="https://github.com/saralopescorrea" style="color: #f2c480; text-decoration: none;" target="blank"> Sara Lopes</a></span> 
+    </footer>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
