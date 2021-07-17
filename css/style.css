@@ -205,7 +205,7 @@ footer {
 }
 
 /* Telefones em paisagem e abaixo */
-@media (max-width: 480px) { 
+@media (max-width: 567px) { 
     .container1 {
         height: 38vh;
         width: 100%;
