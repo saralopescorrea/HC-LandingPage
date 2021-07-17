@@ -253,7 +253,7 @@ footer {
 }
 
 /* Telefones em paisagem a tablet em retrato */
-@media (max-width: 767px) {    
+@media (max-width: 850px) {    
     .container1 {
         height: 40vh;
         width: 100%;
@@ -295,7 +295,7 @@ footer {
     }
         
     .section-four {
-        height: 140vh;
+        height: 150vh;
     }
         
     .card-produto img {
