@@ -203,6 +203,12 @@ footer {
     padding: 30px;
     font-family: 'Comfortaa', cursive;
 }
+@media (min-width: 568px) and (max-width: 999px){
+    .section-four{
+        height: 170vh;
+    }
+}
+
 
 /* Telefones em paisagem e abaixo */
 @media (max-width: 567px) { 
