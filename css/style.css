@@ -8,21 +8,18 @@ html {
 }
 
 body{
-      font-family: 'Open Sans', sans-serif;
       background-color: #f2c480
 }
 
 header {
     background-color: #1a1a1a;
-}
-
-header h1 {
+    height: 8vh;  
     font-family: 'Comfortaa', cursive;
-    font-size: 50px;
-    padding: 20px;
-    text-align: center;
+    font-size: 13px;
     color: #e3178b;
-    text-shadow: 0 0 6px #e3178b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container1{
@@ -30,34 +27,26 @@ header h1 {
     width: 100%;
 }
 
-.section-one{
-    float: left;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.section-one img {
-    max-width: 480px;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.section-two{
+.section{
     float: left;
     width: 50%;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-  
+
+.section img {
+    max-width: 450px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+ 
 .card-container1{
     background: #1a1a1a;
     border-radius: 12px;
     padding: 28px;
-    max-width: 460px;
+    max-width: 440px;
 }
 
 form{
@@ -70,7 +59,7 @@ form{
     font-size: 25px;
     text-align: center;
     color: white;
-    text-shadow: 0 0 2px white;
+    font-family: 'Open Sans', sans-serif
 }
 
 input {
@@ -84,13 +73,12 @@ input {
     color: rgba(150, 0, 100, 1);
     outline: none;
     font-size: 20px;
-    box-shadow: 0 0 4px white;
     border-radius: 8px;
     font-family: 'Open Sans', sans-serif
 }
 
 input::placeholder{
-    color: rgba(150, 0, 120, 1);
+    color: rgba(150, 0, 120, 0.8);
 }
 
 button{
@@ -102,7 +90,7 @@ button{
     color: white;
     font-size: 20px;
     outline: none;
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 3px white;
     font-family: 'Open Sans', sans-serif
 }
 
@@ -111,14 +99,14 @@ button:hover{
 }
 
 .container2 {
-    height: 20vh;
+    height: 10vh;
     width: 100%;
 }
 
-.section-three {
+.section-two {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #card-chamada2 {
@@ -126,14 +114,14 @@ button:hover{
 }
 
 .container2 h2{
-    font-size: 45px;
-    color: #e3178b;
-    text-shadow: 0 0 2px #e016b4;
+    font-size: 30px;
+    color: rgb(165, 17, 133);
+    text-shadow: 0 0 1px #e016b4;
     text-align: center;
     font-family: 'Comfortaa', cursive;
 }
 
-.card-seta img {
+/**.card-seta img {
     display: block;
     margin: 50px auto;
 }
@@ -190,35 +178,36 @@ button:hover{
     color: #940255;
     text-shadow: 0 0 3px #bd1c9a;
     padding: 10px;
-}
+}**/
 
 footer {
-    margin-top: 40px;
+    height: 5vh;
     background-color: #1a1a1a;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    padding: 30px;
+    font-size: 15px;
+    padding: 5px;
     font-family: 'Comfortaa', cursive;
+    margin-top: 35px;
 }
-@media (min-width: 568px) and (max-width: 999px){
+/*@media (min-width: 568px) and (max-width: 999px){
     .section-four{
         height: 170vh;
     }
 }
 
 
-/* Telefones em paisagem e abaixo */
+/* Telefones em paisagem e abaixo*/
 @media (max-width: 567px) { 
     .container1 {
-        height: 38vh;
+        height: 50vh;
         width: 100%;
     }
     
-    .section-one img {
-        max-width: 320px;
+    .section img {
+        max-width: 300px;
     }
     
     .card-container1 {
@@ -247,19 +236,15 @@ footer {
     .container2 h2 {
         font-size: 25px;
     }
-        
-    .section-four{
-        height: 140vh;
+
+    .footer{
+        font-size: 1px;
     }
-    
-    .card-produto img {
-        margin: 5px;
-        height: 220px;
-    }
+
 }
 
-/* Telefones em paisagem a tablet em retrato */
-@media (max-width: 850px) {    
+/* Telefones em paisagem a tablet em retrato
+@media (min-width: 850px) {    
     .container1 {
         height: 40vh;
         width: 100%;
