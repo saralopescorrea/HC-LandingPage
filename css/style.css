@@ -121,65 +121,6 @@ button:hover{
     font-family: 'Comfortaa', cursive;
 }
 
-/**.card-seta img {
-    display: block;
-    margin: 50px auto;
-}
-
-.section-four {
-    margin: 0 auto;
-    height: 60vh;
-    width: 100%;
-}
-
-.container3 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card-produto {
-    width: 300px;
-    border-radius: 10px;
-    margin: 35px 10px;
-    overflow: hidden;
-    text-align: center;
-    background-color: #ef657e;
-    padding: 10px;
-}
-
-.card-produto:hover{
-    cursor: pointer;
-    background-color: #ef7769;
-    box-shadow: 0 0 18px #ef7769;
-}
-
-.card-produto img {
-    height: 280px;
-    width: auto;
-}
-
-.card-produto h4{
-    font-size: 20px;
-    margin: 10px;
-    color: #1a1a1a;
-    font-family: 'Comfortaa', cursive;
-}
-
-.card-produto h5 {
-    font-size: 16px;
-    margin: 10px;
-    text-decoration: line-through;
-    color: #1a1a1a;
-}
-
-.card-produto span {
-    font-size: 30px;
-    color: #940255;
-    text-shadow: 0 0 3px #bd1c9a;
-    padding: 10px;
-}**/
-
 footer {
     height: 5vh;
     background-color: #1a1a1a;
@@ -192,12 +133,6 @@ footer {
     font-family: 'Comfortaa', cursive;
     margin-top: 35px;
 }
-/*@media (min-width: 568px) and (max-width: 999px){
-    .section-four{
-        height: 170vh;
-    }
-}
-
 
 /* Telefones em paisagem e abaixo*/
 @media (max-width: 567px) { 
@@ -239,66 +174,5 @@ footer {
 
     .footer{
         font-size: 1px;
-    }
-
-}
-
-/* Telefones em paisagem a tablet em retrato
-@media (min-width: 850px) {    
-    .container1 {
-        height: 40vh;
-        width: 100%;
-    }
-    
-    .section-one img {
-        max-width: 300px;
-    }
-    
-    .card-container1 {
-        max-width: 380px;
-    }
-    
-    #card-chamada1 {
-        font-size: 20px;
-        text-shadow: 0 0 1px white;
-    }
-        
-    input {
-        font-size: 20px;
-        padding: 5px;
-    }
-    
-    #card-chamada2 {
-        max-width: 680px;
-    }
-        
-    .container2 h2 {
-        font-size: 28px;
-    }
-    
-    .container2 img {
-        margin: 15px auto;
-    }
-    
-    .card-produto {
-        margin-bottom: 10px;
-        max-width: 240px;
-    }
-        
-    .section-four {
-        height: 180vh;
-    }
-        
-    .card-produto img {
-        height: 240px;
-    }
-        
-    .card-produto h4{
-        font-size: 18px;
-    }
-    
-    footer {
-        font-size: 16px;
-        text-align: center;
     }
 }
